@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -31,3 +35,4 @@
 @import "blocks/resume";
 @import "blocks/skills";
 @import "blocks/portfolio";
+@import "blocks/price";

@@ -4,16 +4,17 @@
     margin-top: 60px;
     padding: 0 50px;
     display: grid;
-    grid-template-rows: repeat(3, minmax(44px, auto));
+    grid-template-rows: repeat(3, minmax(45px, auto));
     grid-template-columns: repeat(2, minmax(365px, auto));
-    grid-auto-rows: minmax(44px, auto);
+    grid-auto-rows: minmax(45px, auto);
     row-gap: 15px;
-    column-gap: 310px;
+    justify-content: space-between;
   }
   &__item {
     padding-left: 25px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
+    row-gap: 5px;
     &:nth-child(2n) {
       justify-items: start;
     }

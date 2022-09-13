@@ -174,7 +174,7 @@
     </div>
   </section>
 
-  <section class="resume">
+  <!-- <section class="resume">
     <div class="container">
       <h2 class="title title_fz16 title__section-title">Опыт</h2>
       <div class="title title_fz36 title__section-subtitle">Чем я буду полезен</div>
@@ -252,9 +252,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="skills">
+  <!-- <section class="skills">
     <div class="container">
       <h2 class="title title_fz16 title__section-title">Навыки</h2>
       <div class="title title_fz36 title__section-subtitle">Что я использую в работе</div>
@@ -381,9 +381,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="portfolio">
+  <!-- <section class="portfolio">
     <div class="container">
       <h2 class="title title_fz16 title__section-title">Портфолио</h2>
       <div class="title title_fz36 title__section-subtitle">Мои работы</div>
@@ -410,9 +410,9 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="price">
+  <!-- <section class="price">
     <div class="container">
       <h2 class="title title_fz16 title__section-title">Прайс - лист</h2>
       <div class="divider"></div>
@@ -449,9 +449,9 @@
         </li>
       </ul>
     </div>
-  </section>
+  </section> -->
 
-  <section class="contacts">
+  <!-- <section class="contacts">
     <div class="container">
       <div class="contacts__wrapper">
         <div class="contacts__photo">
@@ -481,26 +481,33 @@
 
           <form action="#" class="contacts__form">
             <div class="contacts__input">
-              <input id="name" name="name" type="text">
-              <label for="name">Ваше имя</label>
+              <input id="name" name="name" type="text" required>
+              <label class="contacts__input-label" for="name">Ваше имя</label>
             </div>
             <div class="contacts__input">
-              <input id="email" name="email" type="email">
-              <label for="email">Ваша почта</label>
+              <input id="email" name="email" type="email" required>
+              <label class="contacts__input-label" for="email">Ваша почта</label>
             </div>
             <div class="contacts__textaria">
               <textarea name="text" id="text"></textarea>
-              <label for="text">Ваше сообщение</label>
+              <label class="contacts__input-label" for="text">Ваше сообщение</label>
             </div>
-            <div>
+            <div class="contacts__triggers">
               <button class="btn contacts__btn">Отправить сообщение</button>
+              <div class="contacts__policy">
+                <label class="contacts__check-label">
+                  <input class="visually-hidden" type="checkbox" required>
+                  <span>Я согласен(а) с</span>
+                </label>
+                <a href="/policy.html">политикой конфиденциальности</a>
+              </div>
             </div>
           </form>
         </div>
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <script src="js/index.js"></script>
 </body>

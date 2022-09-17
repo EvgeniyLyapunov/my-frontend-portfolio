@@ -1,15 +1,25 @@
 .promo {
   position: relative;
   min-height: 100vh;
-  padding-top: 205px;
-
-  background: url("../img/main-bg.jpg") no-repeat 50%/cover;
+  // padding-top: 150px;
+  // background: url("../img/main-bg.jpg") no-repeat 50%/cover;
+  background: url("../img/img-main-bg.jpg") no-repeat 50%/cover;
+  &__container {
+    height: 95vh;
+  }
+  &__wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   &__title {
     width: 560px;
-    margin-top: 10px;
+    // margin-bottom: 200px;
   }
   &__subtitle {
     position: relative;
+    margin-bottom: 50px;
     padding-left: 10px;
     z-index: 2;
     @include before_circle;

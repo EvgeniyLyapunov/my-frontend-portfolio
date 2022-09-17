@@ -8,7 +8,11 @@
   .container {
     max-width: 960px;
   }
+  .promo {
+    background: url("../img/img-main-bg-1200.jpg") no-repeat center/cover;
+  }
   .about {
+    padding-top: 30px;
     &__wrapper {
       grid-template-columns: 400px 520px;
       column-gap: 40px;
@@ -78,6 +82,9 @@
     &_fz36 {
       font-size: 30px;
     }
+  }
+  .promo {
+    background: url("../img/img-main-bg-992.jpg") no-repeat center/cover;
   }
   .about {
     &__wrapper {
@@ -174,13 +181,14 @@
     }
   }
   .promo {
+    background: url("../img/img-main-bg-768.jpg") no-repeat center/cover;
     &__title {
       width: 300px;
       line-height: 39px;
     }
   }
   .about {
-    padding-top: 40px;
+    padding-top: 20px;
     &__wrapper {
       grid-template: 400px auto auto / 1fr;
     }
@@ -308,12 +316,14 @@
     }
   }
   .promo {
-    background: url("../img/main-bg.jpg") no-repeat 60%/cover;
+    // background: url("../img/main-bg.jpg") no-repeat 60%/cover;
+    background: url("../img/img-main-bg-576.jpg") no-repeat center/cover;
     &__btns {
       margin-top: 30px;
     }
   }
   .about {
+    padding-top: 0;
     &__wrapper {
       grid-template: 340px auto auto / 1fr;
     }

@@ -78,13 +78,24 @@
   .container {
     max-width: 720px;
   }
+  .hamburger {
+    top: 32px;
+    right: 42px;
+  }
+  .menu {
+    &__link {
+      &::before {
+        display: none;
+      }
+    }
+  }
   .title {
     &_fz36 {
       font-size: 30px;
     }
   }
   .promo {
-    background: url("../img/img-main-bg-992.jpg") no-repeat center/cover;
+    background: url("../img/img-main-bg-1200.jpg") no-repeat center/cover;
   }
   .about {
     &__wrapper {
@@ -181,7 +192,7 @@
     }
   }
   .promo {
-    background: url("../img/img-main-bg-768.jpg") no-repeat center/cover;
+    background: url("../img/img-main-bg-1200.jpg") no-repeat center/cover;
     &__title {
       width: 300px;
       line-height: 39px;
@@ -307,7 +318,7 @@
     margin-top: 15px;
   }
   .hamburger {
-    right: 20px;
+    right: 34px;
   }
   .menu {
     &__block {
